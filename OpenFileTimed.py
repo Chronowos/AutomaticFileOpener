@@ -7,8 +7,6 @@ boolVal = True
 
 file_path = input("Insert path to your desired file: ")
 
-test = "C:\\Users\\Leon\\Desktop\\Test.xlsx"
-
 file_name = os.path.basename(file_path)
 
 def isFileOpen(file_path):
